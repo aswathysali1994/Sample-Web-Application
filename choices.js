@@ -19,10 +19,9 @@ function functionName( s ){
       }
       else
       {
-        if(cell_data[0]===s)
-        {
+        
        table_data += '<td>'+cell_data[cell_count]+'</td>';
-        }
+        
 
       }
      }
