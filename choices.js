@@ -1,4 +1,4 @@
-function functionName( programType ){
+function findStoreNProgramTyp( programType ){
 	$.ajax({
    url:"employee.csv",
    dataType:"text",
