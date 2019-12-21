@@ -956,7 +956,7 @@ button {
 
 
 }
-.s130 form ::-webkit-scrollbar {
+.s130 form .table-style ::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 10px;
 }
