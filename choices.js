@@ -21,8 +21,6 @@ function functionName( s ){
       {
         
        table_data += '<td>'+cell_data[cell_count]+'</td>';
-        
-
       }
      }
      table_data += '</tr>';

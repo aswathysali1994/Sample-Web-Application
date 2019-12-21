@@ -832,7 +832,7 @@ button {
 .s130 form {
   width: 100%;
   max-width: 790px;
-  padding-top: 24vh;
+  padding-top: 10vh;
 }
 
 .s130 form .inner-form {
@@ -940,7 +940,7 @@ button {
   border-width: 1px;
   border-color: #999999;
   border-collapse: collapse;
-  height: 200px; 
+  height: 400px; 
   overflow: auto;
 
 }
