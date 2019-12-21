@@ -961,7 +961,7 @@ button {
   width: 10px;
 }
 
-.s130 form ::-webkit-scrollbar-thumb {
+.s130 form .table-style ::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background-color: rgba(0,0,0,.5);
   -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
