@@ -1,4 +1,4 @@
-function findStoreNProgramType( programType ){
+function findStoreNProgramType( searchValue ){
 	$.ajax({
    url:"employee.csv",
    dataType:"text",
@@ -9,7 +9,7 @@ function findStoreNProgramType( programType ){
       var employee_data = data.split(/\r?\n|\r/);
       var table_data = '<table class="table table-bordered table-striped">';
       var pType;
-      switch(programType){
+      switch(searchValue){
         case "S2S":
           pType=4;
           break;
@@ -59,7 +59,7 @@ function findStoreNProgramType( programType ){
         for(var count = 0; count<employee_data.length; count++)
         {
          var cell_data = employee_data[count].split(",");
-         if(cell_data[0]==programType || count == 0)
+         if(cell_data[0]==searchValue || count == 0)
           {  
            table_data += '<tr>';
            for(var cell_count=0; cell_count<cell_data.length; cell_count++)
