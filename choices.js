@@ -32,25 +32,52 @@ function findStoreNProgramType( programType ){
           pType=0;
 
       }
-      for(var count = 0; count<employee_data.length; count++)
+      if(pType!==0)
       {
-       var cell_data = employee_data[count].split(",");
-       if(cell_data[pType]==yess || count == 0)
-        {  
-         table_data += '<tr>';
-         for(var cell_count=0; cell_count<cell_data.length; cell_count++)
-         {
-          if(count === 0)
-          {
-           table_data += '<th>'+cell_data[cell_count]+'</th>';
+        for(var count = 0; count<employee_data.length; count++)
+        {
+         var cell_data = employee_data[count].split(",");
+         if(cell_data[pType]==yess || count == 0)
+          {  
+           table_data += '<tr>';
+           for(var cell_count=0; cell_count<cell_data.length; cell_count++)
+           {
+            if(count === 0)
+            {
+             table_data += '<th>'+cell_data[cell_count]+'</th>';
+            }
+            else
+            {                 
+             table_data += '<td>'+cell_data[cell_count]+'</td>';           
+            }
+           }
+           table_data += '</tr>';
           }
-          else
-          {                 
-           table_data += '<td>'+cell_data[cell_count]+'</td>';           
-          }
-         }
-         table_data += '</tr>';
         }
+      }
+      else{
+        for(var count = 0; count<employee_data.length; count++)
+        {
+         var cell_data = employee_data[count].split(",");
+         if(cell_data[0]==programType || count == 0)
+          {  
+           table_data += '<tr>';
+           for(var cell_count=0; cell_count<cell_data.length; cell_count++)
+           {
+            if(count === 0)
+            {
+             table_data += '<th>'+cell_data[cell_count]+'</th>';
+            }
+            else
+            {                 
+             table_data += '<td>'+cell_data[cell_count]+'</td>';           
+            }
+           }
+           table_data += '</tr>';
+          }
+        }
+
+
       }
       table_data += '</table>';
       $('#employee_table').html(table_data);
