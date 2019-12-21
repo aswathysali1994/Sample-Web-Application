@@ -8,6 +8,31 @@ function functionName( s ){
     var yess="Y";
     var employee_data = data.split(/\r?\n|\r/);
     var table_data = '<table class="table table-bordered table-striped">';
+    var pType;
+    switch(s){
+      case "S2S":
+        pType=4;
+        break;
+      case "GRD":
+        pType=5;
+        break;
+      case "GRP":
+        pType=6;
+        break;
+      case "GMD":
+        pType=7;
+        break;
+      case "PUT":
+        pType=8;
+        break;
+      case "SFS":
+        pType=9;
+        break;
+      default:
+        pType=0;
+
+
+    }
     for(var count = 0; count<employee_data.length; count++)
     {
      var cell_data = employee_data[count].split(",");
@@ -20,7 +45,7 @@ function functionName( s ){
       }
       else
       {
-        if(cell_data[4]===yess)
+        if(cell_data[pType]===yess)
         {        
        table_data += '<td>'+cell_data[cell_count]+'</td>';
         }
