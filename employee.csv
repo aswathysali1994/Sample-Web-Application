@@ -1,17 +1,30 @@
-Name,Address,Gender,Designation,Age
-John Smith,656 Edsel Road Sherman Oaks CA 91403,Male,Manager,40
-Clara Berry,63 Woodridge Lane Memphis TN 38138,Male,Programmer,22
-Barbra K. Hurley,1241 Canis Heights Drive Los Angeles CA 90017,Female,Service technician,26
-Antonio J. Forbes,403 Snyder Avenue Charlotte NC 28208,Male,Falling,32
-John Smith,656 Edsel Road Sherman Oaks CA 91403,Male,Manager,40
-Clara Berry,63 Woodridge Lane Memphis TN 38138,Male,Programmer,22
-Barbra K. Hurley,1241 Canis Heights Drive Los Angeles CA 90017,Female,Service technician,26
-Antonio J. Forbes,403 Snyder Avenue Charlotte NC 28208,Male,Falling,32
-John Smith,656 Edsel Road Sherman Oaks CA 91403,Male,Manager,40
-Clara Berry,63 Woodridge Lane Memphis TN 38138,Male,Programmer,22
-Barbra K. Hurley,1241 Canis Heights Drive Los Angeles CA 90017,Female,Service technician,26
-Antonio J. Forbes,403 Snyder Avenue Charlotte NC 28208,Male,Falling,32
-John Smith,656 Edsel Road Sherman Oaks CA 91403,Male,Manager,40
-Clara Berry,63 Woodridge Lane Memphis TN 38138,Male,Programmer,22
-Barbra K. Hurley,1241 Canis Heights Drive Los Angeles CA 90017,Female,Service technician,26
-Antonio J. Forbes,403 Snyder Avenue Charlotte NC 28208,Male,Falling,32
+Store Number,State,Ring in GIF1.0,Ring in GIF2.0,S2S,GRD,GRP,GMD,PUT,SFS,Total Programs
+1,AR,Ring 3,NA,Y,N,Y,N,Y,Y,4
+2,AR,Ring 3,NA,Y,N,Y,N,Y,N,3
+3,GA,Ring 2,NA,Y,N,Y,N,Y,N,3
+4,AR,Ring 3,NA,Y,N,Y,N,Y,N,3
+5,AR,Ring 3,NA,Y,Y,Y,N,Y,N,4
+7,AR,Ring 3,NA,Y,Y,Y,N,Y,N,4
+8,AR,Ring 3,NA,Y,N,Y,N,Y,N,3
+9,MO,Ring 3,NA,Y,N,Y,N,Y,N,3
+10,OK,Ring 3,NA,Y,N,Y,N,Y,N,3
+11,AR,Ring 3,NA,Y,N,Y,N,Y,N,3
+12,OK,Ring 3,NA,Y,N,N,N,Y,N,2
+13,MO,Ring 3,NA,Y,N,Y,N,Y,N,3
+14,MO,Ring 3,NA,Y,N,Y,N,Y,N,3
+15,MO,Ring 3,NA,Y,N,Y,N,Y,N,3
+16,AR,Ring 3,NA,Y,Y,Y,N,Y,N,4
+17,MO,Ring 3,NA,Y,N,Y,N,Y,N,3
+18,AR,Ring 3,NA,Y,N,N,N,Y,N,2
+19,MO,Ring 3,NA,Y,N,Y,N,Y,N,3
+20,MO,Ring 3,NA,Y,N,N,N,Y,N,2
+21,MO,Ring 3,NA,Y,N,Y,N,Y,N,3
+22,OK,Ring 3,NA,Y,N,Y,N,Y,N,3
+23,LA,Ring 3,NA,Y,N,Y,N,Y,N,3
+24,AR,Ring 3,NA,Y,Y,Y,N,Y,N,4
+25,MO,Ring 3,NA,Y,N,N,N,Y,N,2
+26,KS,Ring 3,NA,Y,N,Y,N,Y,N,3
+27,MO,Ring 3,NA,Y,N,N,N,Y,N,2
+28,OK,Ring 3,NA,Y,N,Y,N,Y,N,3
+29,MO,Ring 3,NA,Y,N,Y,N,Y,N,3
+30,MO,Ring 3,NA,Y,N,Y,N,Y,N,3
