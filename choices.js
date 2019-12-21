@@ -19,7 +19,7 @@ function functionName( s ){
       }
       else
       {
-        if(cell_data[4]===s)
+        if(cell_data[4]==='Y')
         {        
        table_data += '<td>'+cell_data[cell_count]+'</td>';
         }
