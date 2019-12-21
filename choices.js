@@ -36,7 +36,7 @@ function functionName( s ){
     for(var count = 0; count<employee_data.length; count++)
     {
      var cell_data = employee_data[count].split(",");
-     if(cell_data[pType]===yess || count === 0)
+     if(cell_data[pType]==yess || count == 0)
       {  
        table_data += '<tr>';
        for(var cell_count=0; cell_count<cell_data.length; cell_count++)
