@@ -950,6 +950,8 @@ button {
   padding: 8px;
   border-style: solid;
   border-color: #999999;
+  position: -webkit-sticky;
+  position: sticky;
 
 
 }
