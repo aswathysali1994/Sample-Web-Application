@@ -940,6 +940,8 @@ button {
   border-width: 1px;
   border-color: #999999;
   border-collapse: collapse;
+  height: 200px; 
+  overflow: auto;
 
 }
 .s130 form  .table-style th{
